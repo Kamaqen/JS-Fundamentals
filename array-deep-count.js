@@ -1,11 +1,12 @@
-function deepCount(a){
-  if (a.length === 0) {
-    return 0;
+function deepCount(arr){
+  if (!arr.find(e => Array.isArray(e))) {
+    return arr.length;
   } else {
-    const arrays = a.filter(e => Array.isArray(e));
-    const notArrays = a.length - arrays.length;
-    console.log(arrays);
-    return arrays ? notArrays + deepCount(arrays.find(e => Array.isArray(e))) : a.length;
+    let sum = arr.length;
+    for (let subArr of arr.filter(e => Array.isArray(e))) {
+      sum += deepCount(subArr)
+    }
+    return sum;
   }
 }
 
