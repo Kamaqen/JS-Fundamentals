@@ -22,8 +22,7 @@ Getting Started
 Clone this repository:
 
 bash
-Copy code
-git clone https://github.com/your_username/codewars-katas-solutions.git
+git clone git@github.com:Kamaqen/JS-Fundamentals.git
 Navigate to the directory of the kata you're interested in.
 
 Choose the programming language directory.
@@ -38,7 +37,6 @@ Fork this repository.
 Create a new branch for your feature or improvement:
 
 bash
-Copy code
 git checkout -b feature/new-kata-solution
 Make your changes and commit them:
 
