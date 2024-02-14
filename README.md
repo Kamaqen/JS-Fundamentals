@@ -10,13 +10,13 @@ markdown
 Copy code
 - kyu_8/
   - javascript/
-  - python/
+  - ruby/
 - kyu_7/
   - javascript/
-  - python/
+  - ruby/
 - kyu_6/
   - javascript/
-  - python/
+  - ruby/
 ...
 Getting Started
 Clone this repository:
