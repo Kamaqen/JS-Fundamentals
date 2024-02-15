@@ -5,9 +5,7 @@ This repository contains my solutions to various katas from Codewars. Codewars i
 
 Katas Structure
 The solutions will eventually organized into directories based on their respective difficulty levels and kata categories. Each directory contains the solutions in javascript and other languages may be added later on.
-
-markdown
-Copy code
+```markdown
 - kyu_8/
   - javascript/
   - ruby/
@@ -17,12 +15,14 @@ Copy code
 - kyu_6/
   - javascript/
   - ruby/
+```
 ...
 Getting Started
 Clone this repository:
 
-bash
+```
 git clone git@github.com:Kamaqen/JS-Fundamentals.git
+```
 Navigate to the directory of the kata you're interested in.
 
 Choose the programming language directory.
@@ -36,18 +36,19 @@ Fork this repository.
 
 Create a new branch for your feature or improvement:
 
-bash
+```bash
 git checkout -b feature/new-kata-solution
+```
 Make your changes and commit them:
 
-bash
-Copy code
+```bash
 git commit -am 'Add solution for <kata-name>'
+```
 Push your changes to your fork:
 
-bash
-Copy code
+```bash
 git push origin feature/new-kata-solution
+```
 Submit a pull request to the main branch of this repository.
 
 License
