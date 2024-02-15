@@ -58,3 +58,14 @@ function hof(fn1, fn2, person) {
   console.log(person.name);
 }
 hof(run, walk);
+
+const pattern = /^(?=.*[a-zA-Z]).{26,}$/;
+const text = "Your input string here";
+
+if (pattern.test(text)) {
+    console.log("String contains all alphabet letters at least once.");
+} else {
+    console.log("String does not contain all alphabet letters at least once.");
+}
+
+
