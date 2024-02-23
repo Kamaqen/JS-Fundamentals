@@ -1,9 +1,9 @@
-Codewars Katas Solutions
+## Codewars Katas Solutions
 
-Overview
+## Overview
 This repository contains my solutions to various katas from Codewars. Codewars is a platform that offers coding challenges known as katas, which are designed to improve your coding skills by practicing different problem-solving techniques and algorithms.
 
-Katas Structure
+## Katas Structure
 The solutions will eventually organized into directories based on their respective difficulty levels and kata categories. Each directory contains the solutions in javascript and other languages may be added later on.
 ```markdown
 - kyu_8/
@@ -17,7 +17,7 @@ The solutions will eventually organized into directories based on their respecti
   - ruby/
 ```
 ...
-Getting Started
+## Getting Started
 Clone this repository:
 
 ```
@@ -29,7 +29,7 @@ Choose the programming language directory.
 
 Open the solution file in your preferred code editor.
 
-Contributing
+## Contributing
 Contributions in the form of new kata solutions or improvements to existing ones are welcome! If you'd like to contribute, please follow these steps:
 
 Fork this repository.
@@ -51,5 +51,5 @@ git push origin feature/new-kata-solution
 ```
 Submit a pull request to the main branch of this repository.
 
-License
+## License
 This repository is licensed under the MIT License.
