@@ -21,3 +21,5 @@ const sumArray2 = (numbers) =>
         .slice(1, -1)
         .reduce((sum, number) => sum + number, 0)
     : 0;
+
+// https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript
