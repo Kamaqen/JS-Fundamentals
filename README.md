@@ -51,5 +51,8 @@ git push origin feature/new-kata-solution
 ```
 Submit a pull request to the main branch of this repository.
 
+## Testing
+Work in progress.
+
 ## License
 This repository is licensed under the MIT License.
