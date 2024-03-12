@@ -5,3 +5,9 @@ function removeEveryOther(arr) {
   }
   return arr2;
 }
+
+function removeEveryOther2(arr) {
+  return arr.filter(function (elem, index) {
+    return index % 2 === 0;
+  });
+}
