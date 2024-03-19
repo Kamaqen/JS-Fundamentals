@@ -3,3 +3,7 @@ function areYouPlayingBanjo(name) {
     ? `${name} plays banjo`
     : `${name} does not play banjo`;
 }
+
+function areYouPlayingBanjo(name) {
+  return name + (/^r/i.test(name) ? " plays " : " does not play ") + "banjo";
+}
